@@ -3,8 +3,8 @@ import { useState } from 'react';
 const InputForm = (props) => {
   const [formLetter, setFormLetter] = useState('');
 
-  function isAlphaOrParen(str) {
-    return /^[a-zA-Z()]+$/.test(str);
+  function isAlpha(string) {
+    return /^[a-zA-Z]+$/.test(string);
   }
 
   const inputHandler = (e) => {
@@ -17,7 +17,7 @@ const InputForm = (props) => {
     if (formLetter === '') {
       alert('Guess cannot be empty!');
       return;
-    } else if (!isAlphaOrParen(formLetter)) {
+    } else if (!isAlpha(formLetter)) {
       alert('Can only guess letters!');
       return;
     } else if (props.guess.includes(formLetter)) {

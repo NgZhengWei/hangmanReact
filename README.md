@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Hangman Application (Tiktok Camp Project)
+
+This was completed by [myself (Zheng Wei)](https://github.com/NgZhengWei), [Vivek Thomas](https://github.com/vivekthomas-prog) and **Cephas Yeo**.
+
+Upon cloning the repo, run `npm install` to install required modules and then run `npm run start` to start the development server. You should be able to view the application on [http://localhost:3000](http://localhost:3000).
+
+### Features:
+
+1. Topic selection screen
+2. Input validation (make sure only one alphabet is selected)
+3. Shows letters when guess is correct
+4. Incremently 'hangs' the stickman if guess is wrong
+5. Win screen and loss screen
+6. Reset the game at any point in time
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
