@@ -1,0 +1,87 @@
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-control {
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+
+.form-control * {
+  margin: 4px 0;
+}
+
+.form-control input {
+  padding: 8px;
+}
+
+button {
+  background-color: #5fd4e9;
+  border: none;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #1dcceb;
+  cursor: pointer;
+}
+
+.hangman-words {
+  font-size: 64px;
+  text-align: center;
+}
+
+.person img {
+  width: 100%;
+}
+
+.right {
+  width: 100%;
+}
+
+.win-screen {
+  text-align: center;
+}
+
+.lose-screen {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .person {
+    display: flex;
+    justify-content: center;
+  }
+
+  .person img {
+    width: 70%;
+    height: auto;
+  }
+}
