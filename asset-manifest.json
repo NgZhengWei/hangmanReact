@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hangmanReact/static/css/main.46dffd39.css",
+    "main.js": "/hangmanReact/static/js/main.868cdc95.js",
+    "static/js/787.7d2d15ae.chunk.js": "/hangmanReact/static/js/787.7d2d15ae.chunk.js",
+    "static/media/8.jpeg": "/hangmanReact/static/media/8.a00256625d059c5dcc01.jpeg",
+    "static/media/7.jpeg": "/hangmanReact/static/media/7.a4fdf566fe239e9f6f6e.jpeg",
+    "static/media/6.jpeg": "/hangmanReact/static/media/6.d8f2b4e6d4119f284ec0.jpeg",
+    "static/media/5.jpeg": "/hangmanReact/static/media/5.397ee7b69707efe51937.jpeg",
+    "static/media/4.jpeg": "/hangmanReact/static/media/4.4777d9c959f968eb928f.jpeg",
+    "static/media/3.jpeg": "/hangmanReact/static/media/3.fb51d2e8df69b5ce892d.jpeg",
+    "static/media/2.jpeg": "/hangmanReact/static/media/2.49a1de27e5694cf6b53a.jpeg",
+    "static/media/1.jpeg": "/hangmanReact/static/media/1.fc7d5bd4550147a18af3.jpeg",
+    "index.html": "/hangmanReact/index.html",
+    "main.46dffd39.css.map": "/hangmanReact/static/css/main.46dffd39.css.map",
+    "main.868cdc95.js.map": "/hangmanReact/static/js/main.868cdc95.js.map",
+    "787.7d2d15ae.chunk.js.map": "/hangmanReact/static/js/787.7d2d15ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46dffd39.css",
+    "static/js/main.868cdc95.js"
+  ]
+}
